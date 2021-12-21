@@ -8,7 +8,7 @@ namespace Console_recommendation_system
 {
     public static class Config
     {
-        public const string rootPath = @"C:\Users\DFG\Documents\Stock";
-        public const string stockModulesPath = rootPath + @"\listStock";
+        public const string rootPath = @"";
+        public const string stockModulesPath = rootPath + @"listStock";
     }
 }
