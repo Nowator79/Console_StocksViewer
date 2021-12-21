@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "HDnTatL4aarc+yfULTcXp9cmVDEIO31MBWuL3T/7oWE3N7wco4wf4dH/VE2tOgQ7gZtZKw0GtK8Cv3Coa1cGGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DFG\\Documents\\GitHub\\Console_StocksViewer\\Console recommendation system\\Console recommendation system.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DFG\\.nuget\\packages\\anglesharp\\0.16.1\\anglesharp.0.16.1.nupkg.sha512",
+    "C:\\Users\\DFG\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\DFG\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\DFG\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
