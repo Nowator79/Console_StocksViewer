@@ -9,7 +9,7 @@ using System.Net;
 using System.Xml.Linq;
 using AngleSharp.Html.Parser;
 
-namespace Console_recommendation_system.Modules
+namespace ConsoleRecommendationSystem.Modules
 {
     public class Stock
     {

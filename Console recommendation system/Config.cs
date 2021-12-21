@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_recommendation_system
+namespace ConsoleRecommendationSystem
 {
     public static class Config
     {

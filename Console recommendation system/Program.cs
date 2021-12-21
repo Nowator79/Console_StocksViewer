@@ -1,8 +1,8 @@
-﻿using Console_recommendation_system.Modules;
+﻿using ConsoleRecommendationSystem.Modules;
 using System;
 using System.Collections.Generic;
 
-namespace Console_recommendation_system
+namespace ConsoleRecommendationSystem
 {
     class Program
     {
