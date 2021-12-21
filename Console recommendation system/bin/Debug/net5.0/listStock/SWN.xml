@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Stock xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Id>0</Id>
-  <Name>TechnipFMC</Name>
+  <Name>SWN</Name>
   <AverageBuyPrice>0</AverageBuyPrice>
-  <CurrentPrice>5.84</CurrentPrice>
+  <CurrentPrice>4.43</CurrentPrice>
   <LinkStock>
-    <UrlStatistics>https://invest.yandex.ru/catalog/stock/fti/?utm_source=serp;utm_medium=stock_wizard#overview</UrlStatistics>
+    <UrlStatistics>https://invest.yandex.ru/catalog/stock/swn/</UrlStatistics>
     <Selector>.bolbtRDz491tDq6jfmHd</Selector>
   </LinkStock>
 </Stock>

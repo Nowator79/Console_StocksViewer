@@ -8,6 +8,7 @@ using System.Xml.Serialization;
 using System.Net;
 using System.Xml.Linq;
 using AngleSharp.Html.Parser;
+using System.Threading;
 
 namespace ConsoleRecommendationSystem.Modules
 {
@@ -34,7 +35,6 @@ namespace ConsoleRecommendationSystem.Modules
             AverageBuyPrice = 0;
             CurrentPrice = 0;
             LinkStock = new LinkStock();
-
         }
 
         public void UpData()
@@ -61,14 +61,11 @@ namespace ConsoleRecommendationSystem.Modules
                         _html += sLine;
                 }
             }
-
             HtmlParser parser = new();
             var doc = parser.ParseDocument(_html);
             string _str = doc.QuerySelector(LinkStock.Selector).TextContent;
-
-            float val = (float)Convert.ToDouble(_str);
+            float val = (float) Convert.ToDouble(_str);
             CurrentPrice = val;
-
         }
         public static List<Stock> InitStock()
         {
@@ -115,6 +112,21 @@ namespace ConsoleRecommendationSystem.Modules
             }
 
             return _listStock;
+
+        }
+        public void GetInfoConsole()
+        {
+            Console.Write($"{Id}:  {Name}  ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{CurrentPrice}");
+            Console.ResetColor();
+        }
+        public void GetShortInfoConsole()
+        {
+            Console.Write($"{Name}:  ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write($"{CurrentPrice}  ");
+            Console.ResetColor();
         }
     }
 }

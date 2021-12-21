@@ -3,7 +3,7 @@
   <Id>0</Id>
   <Name>Transocean</Name>
   <AverageBuyPrice>0</AverageBuyPrice>
-  <CurrentPrice>2.8</CurrentPrice>
+  <CurrentPrice>2.82</CurrentPrice>
   <LinkStock>
     <UrlStatistics>https://invest.yandex.ru/catalog/stock/rig/?utm_source=serp&amp;utm_medium=stock_wizard</UrlStatistics>
     <Selector>.bolbtRDz491tDq6jfmHd</Selector>
